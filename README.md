@@ -21,22 +21,22 @@ Features
 7. validateUserName(String username): Validates the username format.
 8. validatePhoneNo(String phone): Validates the phone number format.
 # User Menu
-Press [1] For Loading Menu Of Desired Restaurant: View the menu of a specific restaurant.
-Press [2] For Placing An Order: Place an order from the menu.
-Press [3] For Checking Your Order Status: Check the status of your orders.
+1. Press [1] For Loading Menu Of Desired Restaurant: View the menu of a specific restaurant.
+2. Press [2] For Placing An Order: Place an order from the menu.
+3. Press [3] For Checking Your Order Status: Check the status of your orders.
 # Owner Menu
-Restaurant Management:
-Press [1] For Creating Restaurant: Create a new restaurant.
-Press [2] For Updating Restaurant Information: Update existing restaurant details.
-Press [3] For Deleting Your Restaurant: Delete a restaurant.
-Press [4] For Viewing Your Restaurant Details On Tomato: View restaurant details.
-# Menu Management:
-Press [2] For Adding An Item To Your Restaurant Menu: Add a new item to the menu.
-Press [3] For Updating An Item From Your Restaurant Menu: Update an existing menu item.
-Press [4] For Deleting An Item From Your Restaurant Menu: Delete an item from the menu.
-Press [5] For Viewing Your Restaurant Menu: View the menu.
-# Order Management:
-Press [3] For Viewing Orders For Your Restaurant: View orders placed for the restaurant.
-Press [4] For Updating Order Status: Update the status of an order (e.g., IN_PROGRESS, COMPLETED).
+# 1. Restaurant Management:
+1. Press [1] For Creating Restaurant: Create a new restaurant.
+2. Press [2] For Updating Restaurant Information: Update existing restaurant details.
+3. Press [3] For Deleting Your Restaurant: Delete a restaurant.
+4. Press [4] For Viewing Your Restaurant Details On Tomato: View restaurant details.
+# 2. Menu Management:
+1. Press [2] For Adding An Item To Your Restaurant Menu: Add a new item to the menu.
+2. Press [3] For Updating An Item From Your Restaurant Menu: Update an existing menu item.
+3. Press [4] For Deleting An Item From Your Restaurant Menu: Delete an item from the menu.
+4. Press [5] For Viewing Your Restaurant Menu: View the menu.
+# 3. Order Management:
+1. Press [3] For Viewing Orders For Your Restaurant: View orders placed for the restaurant.
+4. Press [4] For Updating Order Status: Update the status of an order PENDING, IN_PROGRESS, COMPLETED).
 # Contributions:
 Contributions Are Welcome If You Have Suggestion For Improvement Or Add New features please fork the repository, create a new branch, and submit a pull request.

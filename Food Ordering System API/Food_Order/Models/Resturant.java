@@ -8,18 +8,27 @@ public class Resturant {
     private String name;
     private String adress;
     private String phone;
+    private String cusine;
     private List foodItems = new ArrayList();
 
     // Constructor
-    public Resturant(String id, String ownerId, String name, String adress, String phone, List foodItems) {
-        this.id = id;
+    public Resturant(String Resid, String ownerId, String name, String adress, String phone,String cusine) {
+        this.id = Resid;
         this.ownerId = ownerId;
         this.name = name;
         this.adress = adress;
         this.phone = phone;
-        this.foodItems = foodItems;
+        this.cusine=cusine;
     }
     // Getter And Setter
+
+    public String getCusine() {
+        return cusine;
+    }
+
+    public void setCusine(String cusine) {
+        this.cusine = cusine;
+    }
 
     public String getId() {
         return id;

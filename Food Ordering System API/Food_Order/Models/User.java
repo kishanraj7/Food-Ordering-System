@@ -8,12 +8,12 @@ public class User {
     private String role;
     //Constructor
 
-    public User(String id, String username, String email, String password, String role) {
-        this.id = id;
+    public User(String email, String username, String password, String role,String id) {
         this.username = username;
         this.email = email;
         this.password = password;
         this.role = role;
+        this.id=id;
     }
 
     // Getter And Setter

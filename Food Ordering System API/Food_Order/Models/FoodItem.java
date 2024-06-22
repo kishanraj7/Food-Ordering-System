@@ -5,11 +5,15 @@ public class FoodItem {
     private String restaurantId;
     private String name;
     private String description;
-    private String price;
+    private double price;
     private boolean availability;
     //Constructor
+    public FoodItem(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
 
-    public FoodItem(String id, String restaurantId, String name, String description, String price, boolean availability) {
+    public FoodItem(String id, String restaurantId, String name, String description, double price, boolean availability) {
         this.id = id;
         this.restaurantId = restaurantId;
         this.name = name;
@@ -51,11 +55,11 @@ public class FoodItem {
         this.description = description;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

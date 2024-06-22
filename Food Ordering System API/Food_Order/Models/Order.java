@@ -7,21 +7,21 @@ public class Order {
     private String id;
     private String customerId;
     private String restaurantId;
-    private List foodItems = new ArrayList();
-    private int totalPrice;
+    private List<FoodItem> foodItems = new ArrayList();
+    private double totalPrice;
     private String status;
     //Constructor
 
-    public Order(String id, String customerId, String restaurantId, List foodItems, int totalPrice, String status) {
+    public Order(String id, String customerId, String restaurantId, List foodItems) {
         this.id = id;
         this.customerId = customerId;
         this.restaurantId = restaurantId;
         this.foodItems = foodItems;
-        this.totalPrice = totalPrice;
-        this.status = status;
-    }
-    // Getter & Setter
 
+    }
+
+
+    // Getter & Setter
     public String getId() {
         return id;
     }
@@ -54,11 +54,11 @@ public class Order {
         this.foodItems = foodItems;
     }
 
-    public int getTotalPrice() {
+    public double getTotalPrice() {
         return totalPrice;
     }
 
-    public void setTotalPrice(int totalPrice) {
+    public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
     }
 
